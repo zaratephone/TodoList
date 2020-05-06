@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Solution.TestSQLite.Views.ItemView">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10">
+            <Label Text="Nombre" HorizontalTextAlignment="Start" FontSize="Medium" />
+            <Entry Placeholder="Escriba el nombre" Text="{Binding Item.Name}" HorizontalOptions="FillAndExpand" />
+            <Label Text="Descripción" HorizontalTextAlignment="Start" FontSize="Medium" />
+            <Entry Placeholder="Escriba la descripción" Text="{Binding Item.Description}" VerticalTextAlignment="Start"  HorizontalOptions="FillAndExpand" />
+            <Switch IsToggled="{Binding Item.Done, Mode=TwoWay}" />
+            <Button Text="{Binding Text}" BackgroundColor="#2196F3" Command="{Binding UpdateCommand}" />
+            <Button Text="Eliminar" BackgroundColor="Red" IsVisible="{Binding IsDelete}" TextColor="White" Command="{Binding DeleteCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

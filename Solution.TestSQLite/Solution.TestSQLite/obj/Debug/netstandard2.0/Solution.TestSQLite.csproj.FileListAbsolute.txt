@@ -1,0 +1,16 @@
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Views\ItemView.xaml.g.cs
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Views\ListView.xaml.g.cs
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Solution.TestSQLite.csproj.CoreCompileInputs.cache
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Solution.TestSQLite.AssemblyInfoInputs.cache
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Solution.TestSQLite.AssemblyInfo.cs
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Solution.TestSQLite.dll
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\ref\Solution.TestSQLite.dll
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Solution.TestSQLite.pdb
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\bin\Debug\netstandard2.0\Solution.TestSQLite.deps.json
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\bin\Debug\netstandard2.0\Solution.TestSQLite.dll
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\bin\Debug\netstandard2.0\ref\Solution.TestSQLite.dll
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\bin\Debug\netstandard2.0\Solution.TestSQLite.pdb
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xamarin-me\Solution.TestSQLite\Solution.TestSQLite\obj\Debug\netstandard2.0\Solution.TestSQLite.csprojAssemblyReference.cache

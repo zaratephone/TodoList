@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Solution.TestSQLite.Views.ListView">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Agregar" Priority="0" 
+                     Command="{Binding AddCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+
+        <StackLayout Orientation="Vertical" Spacing="0" >
+            <!--<StackLayout BackgroundColor="#2196F3" Spacing="0" >
+                <Frame Padding="10,0" Margin="5,0,5,5" BorderColor="Black" CornerRadius="5" HasShadow="False" VerticalOptions="Center" >
+                    <StackLayout Orientation="Horizontal">
+                        <Image>
+                            <Image.Source>
+                                <FontImageSource FontFamily="{StaticResource FontAwesomeSolid}" Glyph="&#xf002;" Size="15" Color="Black" />
+                            </Image.Source>
+                        </Image>
+                        <controls:BorderlessEntry Grid.Column="1" Placeholder="¿Qué buscas?" FontSize="Micro" 
+                                              HorizontalOptions="FillAndExpand" VerticalOptions="End" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>-->
+            <Label Text="{Binding CountItems, StringFormat='Más de {0} resultados'}" Margin="10,10" VerticalOptions="Center" />
+            <BoxView BackgroundColor="LightGray" HeightRequest="1.5" VerticalOptions="FillAndExpand" />
+            <RefreshView IsRefreshing="{Binding IsBusy, Mode=TwoWay}" Command="{Binding LoadItemsCommand}" >
+                <CollectionView x:Name="ItemsCollectionView" ItemsSource="{Binding Items, Mode=TwoWay}" VerticalOptions="Start" >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="10" Orientation="Vertical" BackgroundColor="White" VerticalOptions="Fill" Spacing="0" >
+                                <Grid ColumnSpacing="0" BackgroundColor="White" >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition Height="1.5" />
+                                    </Grid.RowDefinitions>
+                                    <StackLayout Orientation="Vertical" Grid.Column="0" Spacing="0" >
+                                        <Label Text="{Binding Name}"  d:Text="{Binding .}" LineBreakMode="WordWrap" 
+                                               Style="{DynamicResource ListItemTextStyle}" FontSize="16" />
+
+                                        <!--<StackLayout Orientation="Horizontal" Spacing="1" >
+                                            <Label Text="{Binding Currency}" d:Text="Item descripton" LineBreakMode="NoWrap" VerticalOptions="Center"
+                                                   FontSize="Micro" />
+                                            <Label Text="{Binding Price, StringFormat='{0:F2}'}" d:Text="Item descripton" LineBreakMode="NoWrap" VerticalOptions="Center"
+                                                   FontSize="Small" FontAttributes="Bold" />
+                                        </StackLayout>-->
+                                    </StackLayout>
+                                    <BoxView BackgroundColor="LightGray" Grid.Row="1" Grid.ColumnSpan="2" />
+                                </Grid>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="OnItemSelected"></TapGestureRecognizer>
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </StackLayout>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

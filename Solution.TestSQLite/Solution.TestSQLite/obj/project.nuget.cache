@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "6V8m/D0vlWPovxZVsX8GtFH6UYlXiOvy9V2QNUEe6LK6iSOhCnmeeYAK01dw4LXuEZ5Bw4y8iyWM0cn+AYp4Eg==",
+  "success": true,
+  "projectFilePath": "C:\\xamarin-me\\Solution.TestSQLite\\Solution.TestSQLite\\Solution.TestSQLite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zaratephone\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\zaratephone\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\zaratephone\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\zaratephone\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\zaratephone\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\zaratephone\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
